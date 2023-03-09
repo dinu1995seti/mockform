@@ -1,7 +1,47 @@
+.body{
+  background-color:darkslategrey;
+  font-family:sans-serif
+}
+
+.navbar{
+  background-color: lightblue;
+  height: 60px;
+  text-align: center;
+}
+.homeDiv{
+  background-color: rgb(218, 231, 227);
+  /* display: inline-flex; */
+  height:100%
+}
+
+.form {
+  text-align: center;
+
+}
+.form > input{
+  border-radius:40%;
+}
+
+.table{
+  margin-left:20px;
+  border:1px solid black;
+  border-style: groove;
+  /* width:100% */
+}
+.table > th ,td{
+  border: 1px solid black;
+  width: auto;
+}
+.table > th{
+  border: 1px solid black;
+}
 .App {
   text-align: center;
 }
-
+table{
+  width:100%;
+  text-align: center;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
